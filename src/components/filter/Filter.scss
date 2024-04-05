@@ -1,0 +1,13 @@
+.filter-container {
+  background-color: $main-background;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  @media screen and (min-width: 768px) {
+    justify-content: end;
+    
+  }
+}

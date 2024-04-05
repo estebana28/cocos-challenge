@@ -1,0 +1,21 @@
+.chip-container {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.chip-pending {
+  color: $neutral-color;
+}
+
+.chip-filled {
+  color: $success-color;
+}
+
+.chip-rejected {
+  color: $error-color;
+}

@@ -1,0 +1,77 @@
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 0 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: center;
+  font-size: 14px;
+  tr {
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    color: black;
+  }
+  th:last-child, th:nth-last-child(2) {
+    text-align: end;
+    text-wrap: nowrap;
+  }
+}
+
+tbody {
+  text-align: center;
+  color: rgb(34, 37, 49);
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: $main-background;
+  tr {
+    height: 56px;
+    cursor: pointer;
+    border-bottom: 1px solid lightgray;
+  }
+  tr:hover {
+    background-color: $hover-color;
+  }
+  td:first-child {
+    font-weight: 600;
+  }
+  td:last-child, td:nth-last-child(2) {
+    text-align: end;
+    text-wrap: nowrap;
+  }
+  td:only-child {
+    text-align: center;
+  }
+}
+
+td {
+  text-align: center;
+}
+
+.positive {
+  color: $success-color;
+}
+
+.negative {
+  color: $error-color;
+}
+
+.neutral {
+  color: $neutral-color;
+}
+
+.name-cell {
+  text-align: start;
+  padding: 0 10px;
+  @media screen and (min-width: 768px) {
+    text-align: center;
+    
+  }
+}
+
